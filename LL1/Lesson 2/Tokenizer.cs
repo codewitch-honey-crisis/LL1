@@ -26,7 +26,7 @@ namespace LL1
 		IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 	}
 	/// <summary>
-	/// The token enumerator is the core of the lexing engine. It uses a composite FA macine to match text against one of several "regular expression" patterns.
+	/// The token enumerator is the core of the lexing engine. It uses a composite FA machine to match text against one of several "regular expression" patterns.
 	/// </summary>
 	class TokenEnumerator : IEnumerator<Token>
 	{
